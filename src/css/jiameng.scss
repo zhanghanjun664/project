@@ -1,0 +1,6 @@
+@function rem($flexible) {
+  @if $flexible !=0 {
+    $flexible: $flexible/750*10+rem;
+  }
+  @return $flexible;
+}

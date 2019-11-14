@@ -1,0 +1,48 @@
+@function rem($flexible) {
+  @if $flexible !=0 {
+    $flexible: $flexible/750*10+rem;
+  }
+  @return $flexible;
+}
+
+.p1{
+  font-size: rem(32);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: rem(88);
+  font-weight: bold;
+
+  img{
+    width: rem(72);
+    margin-right: rem(16);
+  }
+}
+
+.p2{
+  margin-top: rem(20);
+  img{
+    width: 100%;
+  }
+}
+
+.p3{
+  margin-top: rem(80);
+  padding: 0 rem(30);
+  text-align: center;
+  >div{
+    font-size: rem(32);
+    border-radius: 4px;
+    line-height: 50px;
+    margin-bottom: rem(40);
+  }
+  .btn_yd{
+    background-color: #FE0000;
+    color: #fff;
+  }
+  .btn_jm{
+    color: #FE0000;
+    border: rem(2) solid #FE0000;
+  }
+
+}

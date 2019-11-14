@@ -1,0 +1,31 @@
+.p1 {
+  font-size: 0.42667rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.17333rem;
+  font-weight: bold; }
+  .p1 img {
+    width: 0.96rem;
+    margin-right: 0.21333rem; }
+
+.p2 {
+  margin-top: 0.26667rem; }
+  .p2 img {
+    width: 100%; }
+
+.p3 {
+  margin-top: 1.06667rem;
+  padding: 0 0.4rem;
+  text-align: center; }
+  .p3 > div {
+    font-size: 0.42667rem;
+    border-radius: 4px;
+    line-height: 50px;
+    margin-bottom: 0.53333rem; }
+  .p3 .btn_yd {
+    background-color: #FE0000;
+    color: #fff; }
+  .p3 .btn_jm {
+    color: #FE0000;
+    border: 0.02667rem solid #FE0000; }

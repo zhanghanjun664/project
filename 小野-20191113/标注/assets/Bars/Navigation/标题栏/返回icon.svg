@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="17px" viewBox="0 0 10 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Bars/Navigation/标题栏/返回icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-0_成为烟弹" transform="translate(-15.000000, -58.000000)" fill="#333333">
+            <g id="Bars/Navigation">
+                <g id="Bars/Navigation/标题栏">
+                    <g transform="translate(0.000000, 44.000000)">
+                        <g id="Bar/Navigation/标题栏">
+                            <g>
+                                <g id="Bars/Navigation/标题栏/返回icon" transform="translate(15.000000, 14.000000)">
+                                    <path d="M-6.42194631e-15,8.13529852 C0.0138647678,7.89576456 0.110918142,7.66026767 0.291160123,7.47725274 L0.291160123,7.47725274 L7.36222793,0.297399268 C7.75275223,-0.0991330894 8.38591721,-0.0991330894 8.7764415,0.297399268 C9.16696579,0.693931626 9.16696579,1.3368376 8.7764415,1.73336996 L8.7764415,1.73336996 L2.378,8.23 L8.7764415,14.7272527 C9.13692546,15.0932826 9.16465499,15.6692403 8.8596301,16.0675668 L8.7764415,16.1632234 C8.38591721,16.5597558 7.75275223,16.5597558 7.36222793,16.1632234 L7.36222793,16.1632234 L0.291160123,8.98336996 C0.110918142,8.80035503 0.0138647678,8.56485814 -6.38204767e-15,8.32532418 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
