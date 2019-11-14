@@ -13,6 +13,10 @@ var params = {
 $(".areaPicker").cityPicker({
   title: "地区",
   onChange: function (picker, values, displayValues) {
+
+    $(".phone").blur()
+    $(".customerName").blur()
+    $(".fullAddress").blur()
     
     params.province = displayValues[0]
     params.city = displayValues[1]
@@ -61,6 +65,7 @@ $(".phone").on("input",function(){
   checkoutSubmit()
 
 })
+
 
 $(".fullAddress").on("input",function(){
   var val = this.value
