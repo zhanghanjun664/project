@@ -19,6 +19,7 @@ body {
   font-size: rem(24);
   width: 100%;
   height: 100%;
+  background-color: #fff;
 }
 
 textarea{
@@ -382,14 +383,21 @@ body{
 
 // weui--picker样式
 .weui-picker-container{
+  height: 100%!important;
+  background-color: rgba(0, 0, 0, .6);
   .weui-picker-modal{
-    height: rem(630);
+    height: rem(500);
+    .picker-modal-inner{
+      height: rem(400);
+    }
+
     .picker-items{
       font-size: rem(36);
     }
     .picker-item{
       height: rem(64);
       line-height: rem(64);
+      text-align: center;
     }
   
   }

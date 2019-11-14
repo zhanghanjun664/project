@@ -18,14 +18,23 @@
     font-size: 0.48rem;
     width: 2.4rem; }
   .p2 .item .inp {
-    font-size: 0.42667rem; }
+    font-size: 0.42667rem;
+    flex: 1; }
   .p2 .item .areaBox {
-    position: relative; }
+    position: relative;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center; }
     .p2 .item .areaBox .areaPickerMask {
       position: absolute;
-      z-index: -1;
-      width: 100%; }
+      z-index: 0;
+      width: 100%;
+      color: #bdbdbd; }
     .p2 .item .areaBox .areaPicker {
+      position: absolute;
+      z-index: 1;
+      width: 100%;
       opacity: 0; }
 
 .p3 {
@@ -47,6 +56,7 @@
   height: 100%;
   top: 0;
   left: 0;
+  bottom: 0;
   display: none; }
   .page_modal .box {
     font-size: 0.48rem;
@@ -72,3 +82,5 @@
       line-height: 1.33333rem;
       text-align: center;
       background-color: #fff; }
+  .page_modal .slideInUp {
+    animation-duration: 0.3s; }

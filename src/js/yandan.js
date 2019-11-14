@@ -13,9 +13,7 @@ var params = {
 $(".areaPicker").cityPicker({
   title: "地区",
   onChange: function (picker, values, displayValues) {
-    // console.log(values, displayValues);
-    $(".areaPickerMask").hide()
-    $(".areaPicker").css("opacity", 1)
+    
     params.province = displayValues[0]
     params.city = displayValues[1]
     params.area = displayValues[2]
@@ -76,7 +74,6 @@ $(".fullAddress").on("input",function(){
 $(".btn_confirm").click(function(){
   var disabled = $(this).attr("data-disabled")
   if(disabled == "true") return
-  console.log('params',params)
 
   if(!params.customerName){
     return showToast("请输入姓名")
@@ -104,7 +101,6 @@ $(".btn_confirm").click(function(){
     url: "/customermess.json",
     data: params,
     success: function(data){
-      console.log('data', data)
       location.href = "success.html"
     },
     complete: function(e){

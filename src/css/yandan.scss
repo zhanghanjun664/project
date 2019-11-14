@@ -16,6 +16,7 @@
   line-height: rem(44);
   color: #9B9B9B;
   padding: rem(10) rem(15);
+  
 }
 
 .p2{
@@ -34,17 +35,26 @@
     }
     .inp{
       font-size: rem(32);
+      flex: 1;
     }
     
     .areaBox{
       position: relative;
+      flex: 1;
+      height: 100%;
+      display: flex;
+      align-items: center;
       .areaPickerMask{
         position: absolute;
-        z-index: -1;
+        z-index: 0;
         width: 100%;
+        color: #bdbdbd;
       }
       .areaPicker{
+        position: absolute;
+        z-index: 1;
         // visibility: hidden;
+        width: 100%;
         opacity: 0;
       }
     }
@@ -80,6 +90,7 @@
   height: 100%;
   top: 0;
   left: 0;
+  bottom: 0;
   display: none;
 
   .box{
@@ -114,6 +125,10 @@
       background-color: #fff;
     }
 
+  }
+
+  .slideInUp{
+    animation-duration: 0.3s;
   }
 
 

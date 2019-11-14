@@ -1,0 +1,53 @@
+.wrap {
+  padding-bottom: 1.6rem; }
+
+.p1 img {
+  width: 100%; }
+
+.p1 .imgBox {
+  margin-top: 0.53333rem;
+  padding: 0 0.4rem;
+  box-sizing: border-box; }
+  .p1 .imgBox img {
+    width: 100%; }
+
+.p1 .tips {
+  margin-top: 0.64rem;
+  padding: 0 0.4rem; }
+  .p1 .tips p {
+    padding: 0.26667rem 0.4rem;
+    background-color: #F6F6F6;
+    border-radius: 0.10667rem;
+    font-size: 0.37333rem;
+    line-height: 0.58667rem;
+    color: #9B9B9B; }
+
+.p2 {
+  padding: 0 0.4rem;
+  margin-top: 0.53333rem; }
+  .p2 .item {
+    line-height: 1.33333rem;
+    border-radius: 0.10667rem;
+    border: 0.02667rem solid #E7E8EC;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center; }
+    .p2 .item .label {
+      width: 2.66667rem;
+      font-size: 0.48rem; }
+    .p2 .item .inp {
+      flex: 1;
+      font-size: 0.48rem; }
+
+.p3 {
+  margin-top: 0.53333rem;
+  padding: 0 0.4rem; }
+  .p3 .btn_confirm {
+    background-color: #FE0000;
+    color: #fff;
+    font-size: 0.48rem;
+    line-height: 1.33333rem;
+    border-radius: 0.10667rem;
+    text-align: center; }
+  .p3 .btn_confirm[data-disabled=true] {
+    opacity: .2; }
