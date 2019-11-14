@@ -6,10 +6,11 @@ var params = {
   province: "",
   city: "",
   area: "",
-  fullAddress: ""
+  fullAddress: "",
+  nonum: nonum
 }
 
-
+checkoutSubmit()
 $(".areaPicker").cityPicker({
   title: "地区",
   onChange: function (picker, values, displayValues) {
@@ -106,7 +107,8 @@ $(".btn_confirm").click(function(){
     url: "/customermess.json",
     data: params,
     success: function(data){
-      location.href = "success.html"
+      // location.href = "success.html"
+      location.href = getWholeUrl("success.html")
     },
     complete: function(e){
       $.hideLoading()

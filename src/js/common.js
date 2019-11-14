@@ -10,6 +10,7 @@
 // var REST_PRRFIX = inter_pre[ENV]
 
 var REST_PRRFIX = "https://api.vvildtech.com/xy/test"
+var nonum = GetQueryString("nonum")
 
 //提示框
 function showModal(config) {
@@ -414,3 +415,17 @@ function showLoading(){
 function hideLoading(){
   $('.z-loading').remove()
 }
+
+function getWholeUrl(url){
+  if(!nonum) return url
+
+  return url += '?nonum='+nonum
+}
+
+// var nonum = GetQueryString("nonum")
+// if(nonum){
+//   sessionStorage.setItem("nonum", nonum)
+// } else {
+//   nonum = sessionStorage.setItem("nonum", nonum)
+// }
+

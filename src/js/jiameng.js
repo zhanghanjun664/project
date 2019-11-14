@@ -29,7 +29,8 @@ $(".btn_confirm").click(function(){
     url: "/customerjoin.json",
     data: params,
     success: function(data){
-      location.href = "success.html"
+      // location.href = "success.html"
+      location.href = getWholeUrl("success.html")
     },
     complete: function(e){
       $.hideLoading()
